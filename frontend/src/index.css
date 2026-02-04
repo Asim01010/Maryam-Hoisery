@@ -5,3 +5,48 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Add this to your global CSS file or create a Hero.css */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTop {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-left {
+  animation: slideInLeft 0.7s ease-out;
+}
+
+.slide-right {
+  animation: slideInRight 0.7s ease-out;
+}
+
+.slide-top {
+  animation: slideInTop 0.7s ease-out;
+}

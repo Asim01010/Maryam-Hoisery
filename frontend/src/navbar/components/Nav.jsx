@@ -186,8 +186,8 @@ const Nav = () => {
   return (
     <>
       {/* Main Navigation */}
-      <div className="relative py-3 md:py-4 border-b border-gray-100 bg-white overflow-x-hidden">
-        <div className="max-w-7xl mx-auto px-4">
+      <div className="relative py-3 md:py-4 border-b border-gray-100 bg-white ">
+        <div className="max-w-8xl mx-auto px-10">
           <div className="flex items-center justify-between">
             {/* Mobile Menu Icon - Left Side */}
             <div className="md:hidden w-10">
@@ -201,8 +201,8 @@ const Nav = () => {
             </div>
 
             {/* Logo - Centered on Mobile, Left on Desktop */}
-            <div className="md:flex-1">
-              <div className="relative flex justify-center md:justify-start">
+            <div className="">
+              <div className="relative flex justify-start">
                 <div className="relative">
                   <h1
                     className="text-4xl md:text-5xl font-bold"
@@ -441,7 +441,7 @@ const Nav = () => {
               </div>
 
               {/* Mobile Navigation */}
-              <div className="flex-1 overflow-y-auto">
+              <div className="flex-1 ">
                 <nav className="py-4">
                   {navItems.map((item) => (
                     <div key={item.name} className="border-b border-gray-100">
