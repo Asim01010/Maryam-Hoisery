@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import Login from "./Auth/Login";
 import Register from "./Auth/Register";
 import Navbar from "./navbar/Navbar"; // ✅ lowercase folder, exact file name
+import Footer from "./navbar/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
