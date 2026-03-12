@@ -223,7 +223,7 @@ const Nav = () => {
                     className="absolute -bottom-3 right-1 text-[12px] md:text-[15px] text-gray-500 font-medium"
                     style={{ fontFamily: "'Fjalla One', sans-serif" }}
                   >
-                    Under Glow
+                    Undergarments
                   </span>
                 </div>
               </div>
@@ -428,7 +428,7 @@ const Nav = () => {
                     className="absolute -bottom-1.5 right-0 text-[9px] text-gray-500 font-medium"
                     style={{ fontFamily: "'Fjalla One', sans-serif" }}
                   >
-                   Under Glow
+                   Undergarments
                   </span>
                 </div>
                 <button
