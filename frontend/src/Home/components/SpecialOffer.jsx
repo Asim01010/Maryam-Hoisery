@@ -196,7 +196,7 @@ const SpecialOffer = () => {
       clearInterval(autoPlayRef.current);
       autoPlayRef.current = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % totalSlides);
-      }, 5000);
+      }, 9000);
     }
   };
 
